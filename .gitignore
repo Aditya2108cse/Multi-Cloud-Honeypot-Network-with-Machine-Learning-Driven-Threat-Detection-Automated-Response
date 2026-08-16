@@ -1,0 +1,23 @@
+# Logs
+*.log
+logs/
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# Environment & Secrets
+.env
+.env.local
+/etc/auto-block.conf
+
+# Build outputs
+dist/
+build/
+
+# IDE / System
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,5 @@
+
+index=opencanary sourcetype=opencanary
+| eval src_ip=coalesce(logdata.SRC_IP, src_ip, src)
+| stats count by src_ip
+| where count >= 3
