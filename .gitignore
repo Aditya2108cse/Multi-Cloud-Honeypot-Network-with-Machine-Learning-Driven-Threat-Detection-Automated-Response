@@ -21,3 +21,8 @@ build/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Project Reports & Generated PDF (Local only)
+docs/PROJECT_REPORT.*
+scripts/generate_pdf_report.py
+*.pdf
